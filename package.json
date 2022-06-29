@@ -1,0 +1,17 @@
+{
+  "name": "event-hub",
+  "version": "1.0.0",
+  "description": "Event Hub Test",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "run": "concurrently \"node sender.js\" \"node receiver.js\""
+  },
+  "author": "Nishaanth S P",
+  "license": "ISC",
+  "dependencies": {
+    "@azure/event-hubs": "^5.8.0",
+    "azure-event-hubs": "^0.2.11",
+    "concurrently": "^7.2.2"
+  }
+}
